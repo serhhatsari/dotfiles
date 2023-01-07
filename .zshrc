@@ -27,6 +27,9 @@ alias vst='vagrant global-status'
 
 # docker aliases
 alias d='docker'
+alias dcl='docker container ls -a'
+alias dcp='docker container prune'
+alias dimg='docker image ls'
 alias dcu='docker-compose up'
 alias dcb='docker-compose build'
 alias dcd='docker-compose down'
